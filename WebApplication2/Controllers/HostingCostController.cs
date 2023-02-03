@@ -26,7 +26,7 @@ namespace WebApplication2.Controllers
                 int totalFortnights = initialFortnights + roundedExtra;
 
                 charge = initialFortnights;
-                float hst13 = chargetax;
+                float hst13 = charge;
                 float total = charge + hst13;
 
                 return totalFortnights + " fortnights at $5.50/FN = $" + charge + " CAD" + "\nHST 13% = $" + hst13 + " CAD" + "\nTotal = $" + total + " CAD";
